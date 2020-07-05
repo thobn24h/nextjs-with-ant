@@ -1,10 +1,14 @@
 import headerStyled from '../components/Header.module.css'
+import { Button } from 'antd';
 
 export default () => {
   return (
     <>
       <div className={headerStyled.appc}>
-        Hello World
+        Test Module CSS
+      </div>
+      <div>
+        <Button type="primary">Test Ant Button</Button>
       </div>
     </>
   )
